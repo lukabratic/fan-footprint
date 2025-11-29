@@ -120,16 +120,8 @@ src/
     └── supabase.ts           # Supabase client config
 ```
 
-## Future Enhancements
-
-- [ ] Persist user data to Supabase
-- [ ] Add photo uploads for stadiums
-- [ ] Visited/unvisited toggle
-- [ ] Filter by sport or visited status
-- [ ] Share stadium lists
-- [ ] Social features (follow other users, compare collections)
-- [ ] Mobile app version
-
 ## License
 
 MIT
+
+For future enhancements and roadmap items, see [README.md](./README.md)
