@@ -36,9 +36,14 @@ export default function ProfilePage() {
       <div className="max-w-4xl mx-auto">
         <div className="flex justify-between items-center mb-8">
           <h1 className="text-4xl font-bold">Profile</h1>
-          <Button onClick={handleLogout} variant="outline">
-            Logout
-          </Button>
+          <div className="flex gap-3">
+            <Link href="/">
+              <Button variant="outline">Back to Tracker</Button>
+            </Link>
+            <Button onClick={handleLogout} variant="outline">
+              Logout
+            </Button>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -124,12 +129,6 @@ export default function ProfilePage() {
               ))}
             </div>
           )}
-        </div>
-
-        <div className="mt-6">
-          <Link href="/">
-            <Button className="w-full">Back to Tracker</Button>
-          </Link>
         </div>
       </div>
     </div>
